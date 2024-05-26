@@ -4,7 +4,7 @@ from django.db import models
 class Tag(models.model):
     name  = models.CharField(max_length=200, unique=True)
         
-    def__str__(self):
+    def __str__(self):
         return self.name
 
 class Project(models.Model):
